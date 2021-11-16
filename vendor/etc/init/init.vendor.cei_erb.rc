@@ -1,0 +1,3 @@
+on post-fs-data
+    mkdir /mnt/vendor/persist/erb 0770 root system
+    restorecon_recursive /mnt/vendor/persist/erb

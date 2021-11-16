@@ -1,0 +1,8 @@
+# General
+ro.operator.optr=USA
+ro.cust.def_brightness=102
+ro.cust.ril.sms_max_pages=6
+ro.cust.ril.defaultsupl=USA
+ro.cust.ril.mms_max_size=300
+ro.cust.ril.show4g=false
+ro.cust.ril.nwmode_show4g=false

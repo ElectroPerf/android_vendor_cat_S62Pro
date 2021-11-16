@@ -1,0 +1,21 @@
+service cei_logger /product/bin/cei_logger
+    user root
+    group root system everybody
+    oneshot
+    disabled
+    seclabel u:r:cei_logger:s0
+
+on property:sys.cei.log_enabled=1
+    start cei_logger
+
+on property:init.svc.cei_logger=stopped
+    setprop sys.cei.log_enabled 0
+
+on property:persist.sys.cei.log_dir=*
+    setprop sys.cei.log_dir ${persist.sys.cei.log_dir}
+
+on property:persist.sys.cei.log_date=*
+    setprop sys.cei.log_date ${persist.sys.cei.log_date}
+
+on property:persist.sys.cei.log_type=*
+    setprop sys.cei.log_type ${persist.sys.cei.log_type}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<voicemails version="1">
+
+<!-- for VODACOM -->
+<voicemail region="VODACOMSA" editable="yes" location="device" vmnumber="132"/>
+
+<!-- for Pellephone-->
+<voicemail region="Pele" editable="yes" location="sim" vmnumber="+972505000151"/>
+
+<!-- for 2Degree New Zealan-->
+<voicemail region="2D" editable="yes" location="sim" vmnumber="+64222022002"/>
+
+<voicemail region="AL" editable="yes" location="device" vmnumber="+35568777"/>
+<voicemail region="AT" editable="yes" location="device" vmnumber="+436762200"/>
+<voicemail region="BB" editable="none" location="none" vmnumber=""/>
+<voicemail region="BN" editable="no" location="device" vmnumber="+31624001233"/>
+<voicemail region="CS" editable="yes" location="device" vmnumber="3311"/>
+<voicemail region="CZ" editable="yes" location="device" vmnumber="+420603123311"/>
+<voicemail region="DE" editable="yes" location="device" vmnumber="3311"/>
+<voicemail region="GR" editable="yes" location="device" vmnumber="+306971000123"/>
+<voicemail region="HR" editable="yes" location="device" vmnumber="+38598151100"/>
+<voicemail region="HU" editable="yes" location="device" vmnumber="+36309888444"/>
+<voicemail region="HY" editable="none" location="none" vmnumber=""/>
+<voicemail region="ME" editable="yes" location="device" vmnumber="+3826714077"/>
+<voicemail region="MK" editable="yes" location="device" vmnumber="+38970121212"/>
+<voicemail region="NL" editable="no" location="device" vmnumber="+31624001233"/>
+<voicemail region="PL" editable="yes" location="device" vmnumber="+48602950000"/>
+<voicemail region="RO" editable="yes" location="sim" vmnumber="+40766177177"/>
+<voicemail region="SK" editable="yes" location="sim" vmnumber="+421903333999"/>
+<voicemail region="TR" editable="yes" location="device" vmnumber="+4365011000"/>
+</voicemails>

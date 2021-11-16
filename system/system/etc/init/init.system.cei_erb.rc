@@ -1,0 +1,14 @@
+on post-fs-data
+    mkdir /data/erb 0775 root system
+
+on property:sys.cei.erb_action=read
+    setprop sys.cei.erb_action none
+    copy /mnt/vendor/persist/erb/backup.dat /data/erb/value.dat
+    chmod 777 /data/erb/value.dat
+    chown system system /data/erb/value.dat
+    write /dev/kmsg "ERB read finish"
+
+on property:sys.cei.erb_action=write
+    setprop sys.cei.erb_action none
+    copy /data/erb/value.dat /mnt/vendor/persist/erb/backup.dat
+    write /dev/kmsg "ERB write finish"

@@ -1,0 +1,8 @@
+# General
+ro.operator.optr=DTN
+ro.cust.def_brightness=102
+ro.cust.ril.show4g=false
+ro.cust.ril.nwmode_show4g=false
+ro.cust.ril.enablemmsdcoff=true
+ro.cust.ril.dcalwayson=1
+ro.cust.ril.dcwarn=true

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+
+    <!-- QCT_Baloo_Camera2 -->
+    <privapp-permissions package="com.cei.snapcam">
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <!-- AppInstaller -->
+    <privapp-permissions package="cei.appinstaller">
+        <permission name="cei.permission.CEI_INSTALL_PACKAGES"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+    </privapp-permissions>
+
+    <!-- AppInstaller_SimChange -->
+    <privapp-permissions package="cei.appinstaller_simchange">
+        <permission name="android.permission.CLEAR_APP_CACHE"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="cei.permission.CEI_INSTALL_PACKAGES"/>
+    </privapp-permissions>
+
+    <!-- DemoMode -->
+    <privapp-permissions package="com.catphones.pos">
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+    </privapp-permissions>
+
+    <!-- DataCollection -->
+    <privapp-permissions package="com.device.performance">
+        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <!-- AppToolbox
+    <privapp-permissions package="se.appland.cat.v2">
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+    </privapp-permissions> -->
+
+    <!-- DT AppEnabler -->
+    <privapp-permissions package="de.telekom.tsc">
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.PACKAGE_VERIFICATION_AGENT"/>
+        <permission name="android.permission.READ_PHONE_STATE" />
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.bullitt.catheadless">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <!-- SAR -->
+    <privapp-permissions package="com.cei.spservice">
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+    </privapp-permissions>
+
+    <!-- Cell Broadcast -->
+    <privapp-permissions package="com.android.cellbroadcastreceiver">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <!-- AutoRedialer -->
+    <privapp-permissions package="com.cei.autoredialer">
+        <permission name="android.permission.READ_PHONE_STATE" />
+    </privapp-permissions>
+
+</permissions>
