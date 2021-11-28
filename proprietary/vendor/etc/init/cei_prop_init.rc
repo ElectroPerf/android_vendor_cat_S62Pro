@@ -1,0 +1,5 @@
+# for CEI property init
+service cei_prop_init /vendor/bin/cei_prop_init
+    class core
+    user root
+    oneshot

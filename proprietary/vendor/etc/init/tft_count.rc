@@ -1,0 +1,8 @@
+service tft_count /vendor/bin/tft_count
+    class main
+    user system
+    group system
+
+on fs
+    mkdir /mnt/vendor/persist/tft 0700 system system
+    restorecon_recursive /mnt/vendor/persist/tft
